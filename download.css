@@ -1,0 +1,35 @@
+/* Styling for the tables */
+table {
+  border-collapse: collapse;
+  width: 80%; /* Adjust width as needed */
+  margin: 0 auto; /* Center the table */
+}
+
+/* Styling for table headers */
+th {
+  background-color: #f2f2f2;
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Styling for table cells */
+td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Styling for the page heading */
+h2 {
+  color: #333333;
+  margin-top: 20px;
+}
+
+/* Styling for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #333333;
+  padding: 20px;
+}

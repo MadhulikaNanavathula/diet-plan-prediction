@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recommended Diet Plans</title>
+  <link rel="stylesheet" href="recomend.css">
+  <link rel="icon" type="image/x-icon" href="diet.ico">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Recommended Diet Plans</h1>
+    <div class="dashboard">
+      <div class="dropdown">
+        <label for="breakfast">Breakfast:</label>
+        <select id="breakfast" onchange="calculateNutrition()">
+          <option value="eggs">Eggs</option>
+          <option value="oatmeal">Oatmeal</option>
+          <option value="toast">Toast</option>
+          <option value="bread-jam">bread-jam</option>
+          <option value="mushroom">mushroom</option>
+          <option value="sprouts">sprouts</option>
+          <!-- Add more options as needed -->
+        </select>
+      </div>
+
+      <div class="dropdown">
+        <label for="lunch">Lunch:</label>
+        <select id="lunch" onchange="calculateNutrition()">
+          <option value="salad">Salad</option>
+          <option value="sandwich">Sandwich</option>
+          <option value="soup">Soup</option>
+          <option value="sweet potato">Sweet Potato</option>
+          <option value="brown rice">brown rice</option>
+          <option value="paratha">paratha</option>
+          <!-- Add more options as needed -->
+        </select>
+      </div>
+
+      <div class="dropdown">
+        <label for="snacks">Snacks:</label>
+        <select id="snacks" onchange="calculateNutrition()">
+          <option value="nuts">Nuts</option>
+          <option value="fruit">Fruit</option>
+          <option value="yogurt">Yogurt</option>
+          <option value="Rice Cake">Rice Cake</option>
+          <option value="popcorn">popcorn</option>
+          <!-- Add more options as needed -->
+        </select>
+      </div>
+
+      <div class="dropdown">
+        <label for="dinner">Dinner:</label>
+        <select id="dinner" onchange="calculateNutrition()">
+          <option value="chicken">Chicken</option>
+          <option value="pasta">Pasta</option>
+          <option value="rice">Rice</option>
+          <option value="stir fried vegetables">stir fried vegetables</option>
+          <!-- Add more options as needed -->
+        </select>
+      </div>
+    </div>
+
+    <div class="calculator">
+      <h2>Calculator</h2>
+      <div class="input">
+        <label for="calories">Calories:</label>
+        <input type="text" id="calories" readonly>
+      </div>
+      <div class="input">
+        <label for="protein">Protein (g):</label>
+        <input type="text" id="protein" readonly>
+      </div>
+      <div class="input">
+        <label for="fat">Fat (g):</label>
+        <input type="text" id="fat" readonly>
+      </div>
+      <div class="input">
+        <label for="carbs">Carbs (g):</label>
+        <input type="text" id="carbs" readonly>
+      </div>
+    </div>
+    <button onclick="downloadData()">Download</button>
+
+
+  </div>
+
+  <script src="recomend.js"></script>
+  <script src="download.js"></script>
+
+
+</body>
+
+</html>

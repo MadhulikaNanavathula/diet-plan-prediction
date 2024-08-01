@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Hide /Show Password</title>
+        <link rel="stylesheet" href="login (2).css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/> 
+        <link rel="icon" type="image/x-icon" href="diet.ico">
+
+    </head>
+    <body>
+        <p><a href="index.php">Go to PHP Page</a></p>
+    <div class="form-box">
+        <h1>Login Here</h1>
+        <div class="input-box">
+            <input type="email" placeholder="Email Id">
+        </div>
+        <div class="input-box">
+            
+            <input type="Password" placeholder="Password" id="myInput">
+            <span class="eye" onclick="myfunction()">
+            <i id="hide1" class="fa fa-eye"></i>
+            <i id="hide2" class="fa fa-eye-slash"></i>
+            </span>
+        </div>
+        <button type="button" class="login-button">LOGIN</button>
+        <html>
+    <head>
+        <title>Hide /Show Password</title>
+        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/> 
+    </head>
+    <body>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+            document.querySelector('.login-button').addEventListener('click', function() {
+                window.location.href = 'calculator(1).html'; // Change 'calculator.html' to the actual URL of your calculator page
+            });
+        });
+        function myfunction(){
+            var x = document.getElementById("myInput");
+            var y = document.getElementById("hide1");
+            var z = document.getElementById("hide2");
+
+            if(x.type="password"){
+                x.type="text";
+                y.style.display="block";
+                z.style.display="none";
+
+            }
+            else{
+                x.type="password";
+                y.style.display="none";
+                z.style.display="block";
+
+            }
+        }
+    </script>
+    </body>
+</html>
+    </div>
+   
+    
+    </body>
+</html>

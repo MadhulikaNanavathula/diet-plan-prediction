@@ -1,0 +1,88 @@
+/* CSS code for styling the diet plan calculator */
+
+body {
+    background-image: url(cal.jpg);
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 10px 10px 10px 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color:#007bff;
+}
+
+form {
+    max-width: 400px;
+    margin: 5%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.box {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(109, 13, 13);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.box1{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.recommend-link {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
