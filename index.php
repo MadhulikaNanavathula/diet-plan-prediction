@@ -3,7 +3,7 @@ $host = 'localhost';
 $port = '5432';
 $dbname = 'demodb';
 $username = 'postgres';
-$password = 'Nki@6015';
+$password = 'mad@234';
 
 try {
     $dsn = "pgsql:host=$host;port=$port;dbname=$dbname";
@@ -14,4 +14,5 @@ try {
     echo "Error in connecting to PostgreSQL server\n";
     echo $e->getMessage();
 }
+
 ?>
